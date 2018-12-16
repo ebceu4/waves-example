@@ -1,0 +1,37 @@
+{
+  "name": "@ebceu4pack/waves-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --config ./webpack.config.js --mode development",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebceu4/waves-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebceu4/waves-example/issues"
+  },
+  "homepage": "https://github.com/ebceu4/waves-example#readme",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^23.3.10",
+    "@types/js-base64": "^2.3.1",
+    "@types/node": "^10.12.15",
+    "jest": "^23.6.0",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@waves/ride-js": "^0.14.7",
+    "axios": "^0.18.0",
+    "ts-jest": "^23.10.5",
+    "waves-crypto": "^1.0.39",
+    "waves-transactions": "^3.0.0-alpha.2"
+  }
+}

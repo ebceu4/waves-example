@@ -1,0 +1,4 @@
+npm init -f
+npm i typescript jest @types/axios @types/jest @types/node -D
+tsc -init
+npx add-gitignore node visualstudiocode
